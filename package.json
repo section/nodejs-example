@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-example",
+  "version": "1.0.0",
+  "description": "Nuxt Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run generate && node index.js",
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/section/nodejs-example"
+  },
+  "author": "Section",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/section/nodejs-example/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nuxt": "latest"
+  }
+}
