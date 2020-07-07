@@ -4,7 +4,8 @@
   "description": "Nuxt Example",
   "main": "index.js",
   "scripts": {
-    "start": "npm run generate && node index.js",
+    "start": "node index.js",
+    "build": "npm run generate",
     "dev": "nuxt",
     "generate": "nuxt generate"
   },
